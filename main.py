@@ -30,9 +30,9 @@ for lista in figury:
   elif len(lista)==2:
     wynik=(poleProstokata(lista))
   elif len(lista)==3:
-    wynik=(poleTrojkata(lista))  
-  elif len(lista)>3:
+    wynik=(poleTrojkata(lista))
+suma=suma+wynik
+print(zaokr(suma,2)) 
+for lista in figury:  
+  if len(lista)>3:
     print("Można podać maksymalnie trzy liczby")
-  
-  suma=suma+wynik
-print(zaokr(suma,2))
